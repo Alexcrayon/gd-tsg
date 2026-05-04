@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b3nqpnyp1mrto"]
+
+[ext_resource type="Texture2D" uid="uid://dysllob0irp6c" path="res://Textures/Dirt.png" id="1_1pf63"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_luwg4"]
+albedo_texture = ExtResource("1_1pf63")
+
+[sub_resource type="BoxMesh" id="BoxMesh_mi782"]
+
+[node name="Tile" type="Node3D" unique_id=1248575824]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2075630299]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.19307733)
+material_override = SubResource("StandardMaterial3D_luwg4")
+mesh = SubResource("BoxMesh_mi782")
