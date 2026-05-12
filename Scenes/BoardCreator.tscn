@@ -4,3 +4,4 @@
 
 [node name="BoardCreator" type="Node3D" unique_id=596474578]
 script = ExtResource("1_7j8l5")
+fileName = "savegame.json"

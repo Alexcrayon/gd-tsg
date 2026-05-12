@@ -1,5 +1,5 @@
 @tool
-extends Node3D
+extends Node3D 
 class_name Tile
 
 const stepHeight:float = 0.25
